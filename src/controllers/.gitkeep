@@ -1,0 +1,3 @@
+# Controllers
+# Handle HTTP requests and responses
+# Delegate business logic to services
