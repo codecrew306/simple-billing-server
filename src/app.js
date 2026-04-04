@@ -1,7 +1,3 @@
-// Application configuration
-
-
-
 import express from 'express';
 import { INTERNAL_SERVER_ERROR } from './constants/statusCodes.js';
 
