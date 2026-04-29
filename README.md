@@ -7,17 +7,19 @@ A mobile-friendly billing application for small retail shops, grocery stores, an
 ```
 src/
 ├── controllers/    # HTTP request handlers
-├── models/         # Data models and schemas
-├── views/          # UI templates
 ├── services/       # Business logic
+├── repositories/   # Database operations
+├── models/         # Data models and schemas
 ├── routes/         # API endpoints
 ├── middleware/     # Request processing
 ├── constants/      # App constants
 ├── config/         # Configuration
 ├── utils/          # Helper functions
+├── views/          # UI templates
 ├── app.js          # Express app setup
 └── server.js       # Entry point
 
+tests/              # Test files
 ```
 
 ## Setup
@@ -46,11 +48,12 @@ npm run dev
 
 ## Architecture
 
-This project follows MVC architecture with a service layer:
+This project follows MERN architecture with layered separation:
 
 - **Controllers** handle HTTP requests and responses
-- **Services** contain business logic
-- **Models** define data structures and database interactions
+- **Services** contain business logic and validation
+- **Repositories** handle database operations (Mongoose queries)
+- **Models** define data structures and schemas
 - **Routes** map URLs to controllers
 - **Middleware** processes requests before they reach controllers
 
@@ -58,4 +61,5 @@ This project follows MVC architecture with a service layer:
 
 - Node.js with ES modules
 - Express.js
-- MVC architecture pattern
+- MongoDB with Mongoose
+- Layered architecture (Controller → Service → Repository → Model)

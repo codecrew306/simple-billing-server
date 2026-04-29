@@ -1,0 +1,4 @@
+# Repositories
+# Database operations layer
+# Pure DB queries using Mongoose
+# No business logic here

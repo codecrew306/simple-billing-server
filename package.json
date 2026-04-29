@@ -21,5 +21,9 @@
   "homepage": "https://github.com/codecrew306/simple-billing-server#readme",
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.15.2",
+    "dotenv": "^17.4.2"
   }
 }
