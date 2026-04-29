@@ -1,0 +1,25 @@
+{
+  "name": "simple-billing-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SimpleBill is a **mobile-friendly billing app** designed for small retail shops, grocery stores, and kirana shops in India. It helps shop owners move away from handwritten bills and mental calculations to a simple, fast, and reliable digital billing system.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codecrew306/simple-billing-server.git"
+  },
+  "author": "codecrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codecrew306/simple-billing-server/issues"
+  },
+  "homepage": "https://github.com/codecrew306/simple-billing-server#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
